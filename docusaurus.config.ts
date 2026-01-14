@@ -85,16 +85,16 @@ const config: Config = {
           title: 'Documentation',
           items: [
             {
-              label: 'How-to Guides',
-              to: '/how-to',
+              label: 'Users',
+              to: '/users',
             },
             {
-              label: 'Reference',
-              to: '/reference',
+              label: 'Developers',
+              to: '/developers',
             },
             {
-              label: 'Explanation',
-              to: '/explanation',
+              label: 'Contributors',
+              to: '/contributors',
             },
           ],
         },

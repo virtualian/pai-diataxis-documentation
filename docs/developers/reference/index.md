@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Reference
 
-Technical specifications and configuration options for PAI.
+Technical specifications for PAI development.
 
 ## Skills
 
@@ -14,13 +14,12 @@ Technical specifications and configuration options for PAI.
 - Skill invocation patterns
 - Available skills reference
 
-## Configuration
+## Hooks
 
-<!-- TODO: Extract from PAI CORE docs -->
+<!-- TODO: Extract from PAI sources -->
 
-- CLAUDE.md configuration
-- Identity configuration (DAIDENTITY.md)
-- Hook configuration
+- Hook types and lifecycle
+- Hook API reference
 
 ## File Formats
 
@@ -29,3 +28,7 @@ Technical specifications and configuration options for PAI.
 - Pack structure
 - Workflow format
 - Configuration schema
+
+:::info User Configuration
+For user-facing configuration options (CLAUDE.md, DAIDENTITY.md), see [Users > Reference](../../users/reference/).
+:::

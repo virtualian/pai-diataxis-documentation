@@ -11,21 +11,35 @@ PAI is a personal AI infrastructure built around Claude Code, providing a custom
 
 ## Documentation Structure
 
-This documentation follows the [Diataxis](https://diataxis.fr/) framework:
+This documentation follows the [Diataxis](https://diataxis.fr/) framework, organized by audience:
 
-### For Users
+### [Users](./users/)
 
-- **[How-to Guides](./how-to/)** - Task-oriented guides for accomplishing specific goals
-- **[Reference](./reference/)** - Technical specifications and configuration options
+End users getting started with PAI.
 
-### For Developers
+- [Tutorials](./users/tutorials/) - Learning-oriented guides for newcomers
+- [How-to Guides](./users/how-to/) - Task-oriented guides for accomplishing specific goals
+- [Reference](./users/reference/) - Configuration options and settings
 
-- **[How-to Guides](./how-to/)** - Guides for creating skills, hooks, and extending PAI
-- **[Reference](./reference/)** - Skill format, hook API, configuration schema
-- **[Explanation](./explanation/)** - Architecture decisions and design rationale
+### [Developers](./developers/)
+
+Developers integrating with or extending PAI.
+
+- [How-to Guides](./developers/how-to/) - Creating skills, hooks, and Packs
+- [Reference](./developers/reference/) - Technical specifications and APIs
+- [Explanation](./developers/explanation/) - Architecture and design rationale
+
+### [Contributors](./contributors/)
+
+Contributors to the PAI project.
+
+- [Tutorials](./contributors/tutorials/) - Onboarding to the PAI codebase
+- [How-to Guides](./contributors/how-to/) - Contributing workflow and PR process
+- [Reference](./contributors/reference/) - Code standards and conventions
+- [Explanation](./contributors/explanation/) - Project philosophy and decisions
 
 ## Quick Links
 
-- [Getting Started](./how-to/)
-- [Reference Documentation](./reference/)
-- [Architecture & Concepts](./explanation/)
+- [Getting Started](./users/tutorials/) - New to PAI? Start here
+- [Create a Skill](./developers/how-to/) - Extend PAI with custom skills
+- [Architecture Overview](./developers/explanation/) - Understand how PAI works
