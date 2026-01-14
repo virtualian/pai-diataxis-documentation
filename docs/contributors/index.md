@@ -6,7 +6,51 @@ sidebar_position: 3
 
 Documentation for PAI project contributors and maintainers.
 
-- [Tutorials](./tutorials/) - Onboarding guides for new contributors
-- [How-to Guides](./how-to/) - Contribution workflows and processes
-- [Reference](./reference/) - Code standards and conventions
-- [Explanation](./explanation/) - Project philosophy and decisions
+## Quick Navigation
+
+### Tutorials
+
+Learning-oriented guides for new contributors:
+
+- [Contributing to PAI](./tutorials/onboarding) - Your first contribution
+
+### How-to Guides
+
+Task-oriented guides for contribution tasks:
+
+- [Submit a Pack](./how-to/submit-pack) - Submit a new pack to PAI
+
+:::info Developer Guides
+For creating skills, hooks, and packs, see [Developers > How-to](../developers/how-to/).
+:::
+
+### Reference
+
+Standards and conventions:
+
+- [Pack Review Process](./reference/pack-review) - What reviewers look for
+
+:::info Technical Specs
+For technical specifications (skill format, hook API, file formats), see [Developers > Reference](../developers/reference/).
+:::
+
+### Explanation
+
+Project philosophy and decisions:
+
+- [Contribution Philosophy](./explanation/contribution-philosophy) - Why we build PAI this way
+
+:::info Technical Architecture
+For technical architecture and system design, see [Developers > Explanation](../developers/explanation/).
+:::
+
+## Getting Started
+
+1. **Read** [What is PAI?](../users/explanation/what-is-pai) to understand the project
+2. **Follow** [Contributing to PAI](./tutorials/onboarding) tutorial
+3. **Check** [Pack Review Process](./reference/pack-review) before submitting
+
+## Community
+
+- **GitHub Discussions:** [Join the conversation](https://github.com/danielmiessler/Personal_AI_Infrastructure/discussions)
+- **UL Community Discord:** [danielmiessler.com/upgrade](https://danielmiessler.com/upgrade)
