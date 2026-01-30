@@ -1,8 +1,11 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import pkg from './package.json';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+const SITE_VERSION = pkg.version;
+const PAI_VERSION = '2.4';
 
 const config: Config = {
   title: 'PAI Documentation',
@@ -72,6 +75,11 @@ const config: Config = {
           label: 'Docs',
         },
         {
+          type: 'html',
+          position: 'right',
+          value: `<a href="/pai-documentation/changelog" class="navbar__link" style="font-size: 0.85em; padding: 4px 8px; background: var(--ifm-color-emphasis-200); border-radius: 4px;">Site v${SITE_VERSION}</a>`,
+        },
+        {
           href: 'https://github.com/virtualian/pai-documentation',
           label: 'GitHub',
           position: 'right',
@@ -112,7 +120,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} PAI. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} PAI. Documenting PAI v${PAI_VERSION} · Site v${SITE_VERSION}`,
     },
     prism: {
       theme: prismThemes.github,

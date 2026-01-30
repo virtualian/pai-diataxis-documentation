@@ -4,7 +4,11 @@ sidebar_position: 1
 
 # Users
 
-Documentation for PAI end users - getting started, daily usage, and configuration.
+**"I want to USE PAI"**
+
+You're a User if you interact with PAI through conversation - installing packs, configuring settings, and using skills to get work done. You care about outcomes, not implementation details.
+
+**This section covers:** How to install, configure, and use PAI effectively. Natural language interactions, not code.
 
 ## Quick Navigation
 

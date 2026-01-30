@@ -4,7 +4,11 @@ sidebar_position: 2
 
 # Developers
 
-Documentation for developers integrating with or extending PAI.
+**"I want to BUILD ON PAI"**
+
+You're a Developer if you write code that PAI executes - creating skills, building packs, adding hooks, or writing tools. You need to understand file formats, APIs, and system architecture.
+
+**This section covers:** Technical specifications, TypeScript interfaces, and implementation guides for extending PAI.
 
 ## Quick Navigation
 

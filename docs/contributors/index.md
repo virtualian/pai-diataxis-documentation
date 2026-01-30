@@ -4,7 +4,11 @@ sidebar_position: 3
 
 # Contributors
 
-Documentation for PAI project contributors and maintainers.
+**"I want to BUILD PAI"**
+
+You're a Contributor if you submit PRs to the PAI repository, review pack submissions, or help maintain the project. You follow project conventions and help others do the same.
+
+**This section covers:** Contribution workflows, review criteria, and project standards. For technical specs, see [Developers](/developers).
 
 ## Quick Navigation
 
